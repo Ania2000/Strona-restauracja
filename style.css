@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    position: relative;
+    background-color: #E6D94C;
+  }
+
+header img { 
+width: 100%; 
+/* użyty jest width na 100% ponieważ zdjęcie wygląda lepiej na stronie */
+min-height: 400px; 
+display: flex;
+background-image: url(./Images/restauracja3.jpg);
+background-position: center;
+background-size: cover;
+margin: 0 auto;
+
+}
+  
+.headerMenu 
+{  
+width: 100vw;
+padding: 30px 0;
+display: flex;
+justify-content: space-evenly;
+color: rgba(77, 116, 85, 0.603);
+margin-top: 0px;
+font-size: 25px;
+width: 100%;
+background-color: rgba(177, 176, 218, 0.73);
+opacity: 25px;
+list-style: none;
+font-size:30px;
+} 
+
+a { color:white;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+.Menu {
+  max-width: 1148px;
+  margin: 50px auto;
+}
+
+.Menu h2 { 
+  
+  font-size: 4.2rem;
+  color: #312933;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+.Menu>p {
+
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.aboutMenu_cards  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+  gap: 50px 30px;
+ 
+}
+
+
+.aboutMenu_cards .card {
+  width: 325px;
+  position: relative;
+}
+
+.aboutMenu_cards h3 {
+
+  font-size: 1.2rem;
+  color: #312933;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.aboutMenu_cards p {
+
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+main img { 
+
+width: 90%; 
+min-height: 200px; 
+display: flex;
+background-image: url(./Images/restauracja2.jpg);
+background-position: center;
+margin: 0 auto;
+}
+.headerFooter
+{  
+  width: 100vw;
+padding: 40px 0;
+display: flex;
+justify-content: space-evenly;
+color: rgba(77, 116, 85, 0.603);
+margin-top: 5px;
+font-size: 25px;
+width: 100%;
+height: 100px;
+background-color: rgba(177, 176, 218, 0.73);
+list-style: none;
+}  
+
+
+
+.headerFooter a { 
+
+  text-transform: none;
+  font-size:20px;
+  margin-top: 0px;
+
+  
+}
+
+a> i  { 
+  
+  font-size:30px;
+  
+}
+
+@media (max-width: 768px) {
+.headerMenu {
+  font-size:20px;
+
+}
+}
+
+
+@media (max-width: 768px) {
+
+ 
+.headerFooter a {
+  font-size:10px;
+  
+  }
+  }
+@media (max-width: 768px) {
+
+a> i {
+font-size:10px;
+
+}
+}
+
+
+
+
+
+
+
